@@ -54,13 +54,22 @@ TextureImporter:
         height: 186
       alignment: 0
       pivot: {x: .5, y: .5}
+    - name: wall
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 542
+        width: 201
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
     - name: ball
       rect:
         serializedVersion: 2
-        x: 137
-        y: 480
-        width: 37
-        height: 37
+        x: 103
+        y: 467
+        width: 41
+        height: 40
       alignment: 0
       pivot: {x: .5, y: .5}
   spritePackingTag: 

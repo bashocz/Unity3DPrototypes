@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PieceMoving : MonoBehaviour
+public class PieceTimeMoving : MonoBehaviour
 {
 		private float _speed = 1.0f;
 		private float _timer;

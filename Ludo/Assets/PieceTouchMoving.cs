@@ -6,6 +6,8 @@ public class PieceTouchMoving : MonoBehaviour
 		private bool _isDown = false;
 		private int _idx = 0;
 		private Vector3[] positions;
+
+	public int StartPosition;
 	
 		// Use this for initialization
 		void Start ()
@@ -98,8 +100,9 @@ public class PieceTouchMoving : MonoBehaviour
 				positions [69] = new Vector3 (1.806351f, -1.01f, 0);
 				positions [70] = new Vector3 (2.403365f, -1.01f, 0);
 				positions [71] = new Vector3 (2.433981f, -1.499858f, 0);
-		
-				renderer.transform.position = positions [0];
+
+		_idx = StartPosition;
+				renderer.transform.position = positions [_idx];
 		}
 	
 		// Update is called once per frame
